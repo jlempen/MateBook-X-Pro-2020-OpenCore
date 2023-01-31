@@ -77,6 +77,7 @@ This repository features an EFI folder with two distinct `config.plist` files. O
 
 ## UEFI BIOS hacks
 The UEFI BIOS UI of the MateBook X Pro 2020 shows only a few trivial settings. In order to take advantage of better CPU power management and graphics acceleration, there are a few other settings that need to be changed in the UEFI BIOS. The best way to achieve this is to use the [RU.efi tool](http://ruexe.blogspot.com) or the new [setup_var.efi tool](https://github.com/datasone/setup_var.efi). The [Dortania OpenCore Post-Install guide](https://dortania.github.io/OpenCore-Post-Install/misc/msr-lock.html#turning-off-cfg-lock-manually) has detailed instructions on how to use the RU.efi tool.
+Hint: the RU.efi tool is included in this EFI folder and may be launched from the OpenCore picker in the Auxiliary tools section.
 
 _**Please be aware that applying these hacks incorrectly may brick your computer! Proceed carefully and only if you know what you are doing!**_
 
