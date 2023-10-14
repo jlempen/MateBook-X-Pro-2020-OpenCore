@@ -23,8 +23,8 @@ This repository features an EFI folder with two distinct `config.plist` files. O
 ## Software Specifications
 | Software         | Version                            |
 | ---------------- | ---------------------------------- |
-| Target OS        | Apple macOS 12.6.3 Monterey |
-| OpenCore         | [MOD-OC v0.8.8](https://github.com/wjz304/OpenCore_NO_ACPI_Build/releases/tag/0.8.8_bf12ec3) |
+| Target OS        | Apple macOS 13.6 Ventura |
+| OpenCore         | [OC v0.9.5](https://github.com/acidanthera/OpenCorePkg/releases/download/0.9.5/OpenCore-0.9.5-RELEASE.zip) |
 | SMBIOS           | MacBookPro16,2 |
 | SSD format       | APFS file system, GPT partition table |
 
