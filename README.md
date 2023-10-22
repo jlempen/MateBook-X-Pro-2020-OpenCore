@@ -23,7 +23,7 @@ This repository features an EFI folder with two distinct `config.plist` files. O
 ## Software Specifications
 | Software         | Version                            |
 | ---------------- | ---------------------------------- |
-| Target OS        | Apple macOS 13.6 Ventura |
+| Target OS        | Apple macOS 14.0 Sonoma |
 | OpenCore         | [OC v0.9.5](https://github.com/acidanthera/OpenCorePkg/releases/download/0.9.5/OpenCore-0.9.5-RELEASE.zip) |
 | SMBIOS           | MacBookPro16,2 |
 | SSD format       | APFS file system, GPT partition table |
