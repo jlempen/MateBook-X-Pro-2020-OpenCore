@@ -2054,7 +2054,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>darkwake=8 lilucpu=10 keepsyms=1</string>
+				<string>darkwake=8 lilucpu=10 keepsyms=1 revpatch=sbvmm</string>
 				<key>csr-active-config</key>
 				<data>
 				ZwAAAA==
