@@ -85,7 +85,7 @@ To access the top bar menu in RU.efi, use the `ALT` key together with the red le
 
 _**Please be aware that applying these hacks incorrectly may brick your computer! Proceed carefully and only if you know what you are doing!**_
 
-### UEFI BIOS variables which need to be modified
+### UEFI Firmware variables which need to be modified
 | VarName | VarOffset | VarStore | From | To |
 | ---------------- | -- | -- | --------- | --------- |
 | CFG Lock | 0x3E | 0x3 (CpuSetup) | 0x1 (Enabled) | 0x0 (Disabled) |
