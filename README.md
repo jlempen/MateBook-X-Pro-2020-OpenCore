@@ -68,7 +68,7 @@ This repository features an EFI folder with two distinct `config.plist` files. O
 
 ## What needs some more work
 - [ ] Thunderbolt
-- [ ] Front left USB-C port hotplug with USB 3.x devices (depends on Thunderbolt)
+- [ ] Front left USB-C port hotplug with USB 3.x devices (depends on Thunderbolt). Using a USB-C hub on this port causes a kernel panic and restart after unplugging the hub. Using the port for power delivery seems to work fine, though.
 - [ ] Accelerometers, gyroscope
 - [ ] Ambient light sensor
 
