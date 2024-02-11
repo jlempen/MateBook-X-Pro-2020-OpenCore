@@ -41,7 +41,7 @@ This repository features an EFI folder with two distinct `config.plist` files. O
 | Storage          | Samsung PM981 NVMe PCIe 1 TB SSD (unsupported), replaced with a Western Digital SN850 NVMe PCIe 1 TB SSD |
 | USB Type-C | Supports Power Delivery and DisplayPort |
 | USB-A 3.0| |
-| Camera | 1 MPix recessed camera |
+| Camera | 1 MPix recessed camera VID 0x05c8 PID 0x03c0 |
 | Keyboard / Trackpad | |
 | Display | 13.90 inch 3:2, 3000 x 2000 LTPS 260 PPI, 10-Point Capacitive |
 | Battery | 56 Wh |
@@ -58,7 +58,7 @@ This repository features an EFI folder with two distinct `config.plist` files. O
 - [x] Right USB 3.0 port with hotplug (`USBMap.kext`)
 - [x] WLAN (`AirportItlwm.kext`)
 - [x] Bluetooth (`IntelBluetoothFirmware.kext` with `IntelBTPatcher.kext` and `BlueToolFixup.kext`)
-- [x] Nose-Camera (don't forget to pop it up :-)
+- [x] Nose-Camera VID 0x05c8 PID 0x03c0 (don't forget to pop it up :-)
 - [x] Internal quad speakers, microphone and Combojack (`AppleALC.kext`, `alcid=76`)
 - [x] Keyboard with working brightness, volume and mute keys (`VoodooPS2.kext`)
 - [x] Trackpad with native multi-touch gestures (`VoodooI2C.kext` with `VoodooI2CHID.kext`)
