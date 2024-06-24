@@ -1,0 +1,77 @@
+61:853  5:255  Found UEFI Acpi 2.0 RSDP at 6fc4d014
+61:853  0:000  Saving ACPI tables from RSDP 6fc4d014 to ACPI\origin ...
+61:853  0:000   6fc4d014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+61:853  0:000    (Xsdt: 6fc26188, Rsdt: 6fc260c4)
+61:853  0:000    6fc26188: 'XSDT', 'CFL-ULT', Rev: 1, Len: 268
+61:853  0:000    6fc260c4: 'RSDT', 'CFL-ULT', Rev: 1, Len: 152
+61:853  0:000    Tables in Xsdt: 29
+61:853  0:000    0. 6fc29000: 'FACP', 'CFL-ULT', Rev: 5, Len: 268
+61:853  0:000        (Dsdt: 6FBE2000, Facs: 6FB68000, XDsdt: 6fbe2000, XFacs: 0)
+61:853  0:000        6fbe2000: 'DSDT', 'CFL-ULT', Rev: 2, Len: 276927
+61:858  0:004        6fb68000: 'FACS', Ver: 2, Len: 64
+61:858  0:000    1. 6fbcd000: 'UEFI', 'CFL-ULT', Rev: 1, Len: 566
+61:858  0:000    2. 6fc43000: 'SSDT', 'CFL-ULT', Rev: 2, Len: 34471
+61:858  0:000    3. 6fc40000: 'SSDT', 'CFL-ULT', Rev: 2, Len: 8347
+61:858  0:000    4. 6fc3c000: 'SSDT', 'CFL-ULT', Rev: 2, Len: 12762
+61:858  0:000    5. 6fc3b000: 'SSDT', 'CFL-ULT', Rev: 2, Len: 1114
+61:858  0:000    6. 6fc3a000: 'SSDT', 'CFL-ULT', Rev: 2, Len: 70
+61:858  0:000    7. 6fc39000: 'TPM2', 'CFL-ULT', Rev: 3, Len: 52
+61:858  0:000    8. 6fc35000: 'SSDT', 'CFL-ULT', Rev: 1, Len: 13234
+61:858  0:000    9. 6fc34000: 'MSDM', 'CFL-ULT', Rev: 3, Len: 85
+61:858  0:000    10. 6fc33000: 'LPIT', 'CFL-ULT', Rev: 1, Len: 148
+61:858  0:000    11. 6fc32000: 'WSMT', 'CFL-ULT', Rev: 1, Len: 40
+61:858  0:000    12. 6fc31000: 'SSDT', 'CFL-ULT', Rev: 2, Len: 2928
+61:858  0:000    13. 6fc2e000: 'SSDT', 'CFL-ULT', Rev: 2, Len: 9583
+61:858  0:000    14. 6fc2d000: 'DBGP', 'CFL-ULT', Rev: 1, Len: 52
+61:858  0:000    15. 6fc2c000: 'DBG2', 'CFL-ULT', Rev: 0, Len: 84
+61:858  0:000    16. 6fc2b000: 'SSDT', 'CFL-ULT', Rev: 2, Len: 2974
+61:858  0:000    17. 6fc2a000: 'NHLT', 'CFL-ULT', Rev: 0, Len: 45
+61:858  0:000    18. 6fc28000: 'HPET', 'CFL-ULT', Rev: 1, Len: 56
+61:858  0:000    19. 6fc27000: 'APIC', 'CFL-ULT', Rev: 3, Len: 356
+61:858  0:000    20. 6fc4c000: 'MCFG', 'CFL-ULT', Rev: 1, Len: 60
+61:858  0:000    21. 6fbe0000: 'SSDT', 'CFL-ULT', Rev: 2, Len: 4728
+61:858  0:000    22. 6fbdf000: 'SSDT', 'CFL-ULT', Rev: 1, Len: 877
+61:858  0:000    23. 6fbde000: 'DMAR', 'CFL-ULT', Rev: 1, Len: 168
+61:858  0:000    24. 6fbdb000: 'SSDT', 'CFL-ULT', Rev: 1, Len: 12218
+61:858  0:000    25. 6fbd9000: 'SSDT', 'CFL-ULT', Rev: 2, Len: 4385
+61:858  0:000    26. 6fbd8000: 'SSDT', 'CFL-ULT', Rev: 1, Len: 356
+61:858  0:000    27. 6fbd7000: 'FPDT', 'CFL-ULT', Rev: 1, Len: 68
+61:858  0:000    28. 6fbd6000: 'BGRT', 'CFL-ULT', Rev: 1, Len: 56
+61:858  0:000  Found UEFI Acpi 1.0 RSDP at 6fc4d000
+61:858  0:000  Printing ACPI tables from RSDP 6fc4d000 ...
+61:858  0:000   6fc4d000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+61:858  0:000    (Rsdt: 6fc26000)
+61:858  0:000    6fc26000: 'RSDT', 'CFL-ULT', Rev: 1, Len: 152
+61:858  0:000    Tables in Rsdt: 29
+61:858  0:000    0. 6fc29000: 'FACP', 'CFL-ULT', Rev: 5, Len: 268
+61:858  0:000        (Dsdt: 6FBE2000, Facs: 6FB68000, XDsdt: 6fbe2000, XFacs: 0)
+61:858  0:000        6fbe2000: 'DSDT', 'CFL-ULT', Rev: 2, Len: 276927
+61:863  0:004        6fb68000: 'FACS', Ver: 2, Len: 64
+61:863  0:000    1. 6fbcd000: 'UEFI', 'CFL-ULT', Rev: 1, Len: 566
+61:863  0:000    2. 6fc43000: 'SSDT', 'CFL-ULT', Rev: 2, Len: 34471
+61:863  0:000    3. 6fc40000: 'SSDT', 'CFL-ULT', Rev: 2, Len: 8347
+61:863  0:000    4. 6fc3c000: 'SSDT', 'CFL-ULT', Rev: 2, Len: 12762
+61:863  0:000    5. 6fc3b000: 'SSDT', 'CFL-ULT', Rev: 2, Len: 1114
+61:863  0:000    6. 6fc3a000: 'SSDT', 'CFL-ULT', Rev: 2, Len: 70
+61:863  0:000    7. 6fc39000: 'TPM2', 'CFL-ULT', Rev: 3, Len: 52
+61:863  0:000    8. 6fc35000: 'SSDT', 'CFL-ULT', Rev: 1, Len: 13234
+61:863  0:000    9. 6fc34000: 'MSDM', 'CFL-ULT', Rev: 3, Len: 85
+61:863  0:000    10. 6fc33000: 'LPIT', 'CFL-ULT', Rev: 1, Len: 148
+61:863  0:000    11. 6fc32000: 'WSMT', 'CFL-ULT', Rev: 1, Len: 40
+61:863  0:000    12. 6fc31000: 'SSDT', 'CFL-ULT', Rev: 2, Len: 2928
+61:863  0:000    13. 6fc2e000: 'SSDT', 'CFL-ULT', Rev: 2, Len: 9583
+61:863  0:000    14. 6fc2d000: 'DBGP', 'CFL-ULT', Rev: 1, Len: 52
+61:863  0:000    15. 6fc2c000: 'DBG2', 'CFL-ULT', Rev: 0, Len: 84
+61:863  0:000    16. 6fc2b000: 'SSDT', 'CFL-ULT', Rev: 2, Len: 2974
+61:863  0:000    17. 6fc2a000: 'NHLT', 'CFL-ULT', Rev: 0, Len: 45
+61:863  0:000    18. 6fc28000: 'HPET', 'CFL-ULT', Rev: 1, Len: 56
+61:863  0:000    19. 6fc27000: 'APIC', 'CFL-ULT', Rev: 3, Len: 356
+61:863  0:000    20. 6fc4c000: 'MCFG', 'CFL-ULT', Rev: 1, Len: 60
+61:863  0:000    21. 6fbe0000: 'SSDT', 'CFL-ULT', Rev: 2, Len: 4728
+61:863  0:000    22. 6fbdf000: 'SSDT', 'CFL-ULT', Rev: 1, Len: 877
+61:863  0:000    23. 6fbde000: 'DMAR', 'CFL-ULT', Rev: 1, Len: 168
+61:863  0:000    24. 6fbdb000: 'SSDT', 'CFL-ULT', Rev: 1, Len: 12218
+61:863  0:000    25. 6fbd9000: 'SSDT', 'CFL-ULT', Rev: 2, Len: 4385
+61:863  0:000    26. 6fbd8000: 'SSDT', 'CFL-ULT', Rev: 1, Len: 356
+61:863  0:000    27. 6fbd7000: 'FPDT', 'CFL-ULT', Rev: 1, Len: 68
+61:863  0:000    28. 6fbd6000: 'BGRT', 'CFL-ULT', Rev: 1, Len: 56
