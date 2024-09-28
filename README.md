@@ -16,6 +16,8 @@ I recommend completely erasing the device's SSD by creating a new GPT partition 
 
 For macOS to be able to boot on the MateBook X Pro 2020, the `Secure Boot` option  _**must be disabled**_ in the UEFI Settings.
 
+To boot from the USB stick containing the macOS installer, power on your MateBook X Pro 2020 and press and hold the `F12 Key` as soon as the Huawei Logo is displayed, then choose the USB stick in the list.
+
 Please be aware that all `PlatformInfo` and `SMBIOS` information was removed from the OpenCore `config.plist` file. Users will therefore need to generate their own `PlatformInfo` with [CorpNewt's GenSMBIOS tool](https://github.com/corpnewt/GenSMBIOS) before attempting to boot a MateBook X Pro 2020 with this repository's EFI folder.
 
 `AirportItlwm_Ventura.kext`, `AirportItlwm_Sonoma14.0.kext` and `AirportItlwm_Sonoma14.4.kext` from the [OpenIntelWireless repo](https://github.com/OpenIntelWireless/itlwm) are required to enable the Wifi chip. This EFI will dynamically load the appropriate kext for macOS Ventura or Sonoma depending on the running kernel. No need to manually replace the kext file when updating your version of macOS. 
@@ -106,26 +108,11 @@ This repository uses the unofficial OpenCore_NO_ACPI_Build fork of OpenCore by [
   <summary>UEFI Settings</summary>
   
 ## UEFI Settings
-To enter the UEFI Settings, power on your MateBook X Pro 2020 and hold the `F2 Key` as soon as the Huawei Logo is displayed on the screen.
+To enter the UEFI Settings, power on your MateBook X Pro 2020 and press and hold the `F2 Key` as soon as the Huawei Logo is displayed on the screen.
 
-Apart from the `Secure Boot` setting, which ***must be disabled to boot macOS***, the following settings are not mandatory for macOS to work, but keep in mind that every disabled device saves power and increases the battery runtime. As the fingerprint reader won't work in macOS, disabling the device in the UEFI Settings is recommended unless you use another operating system on the device. I also recommend moving `USB Storage` to the top of the boot configuration list, which makes booting from an USB stick much easier.
+The `Secure Boot` setting ***must be disabled to boot macOS***.
 
-| Security | |
-| -------- | ----- |
-| Secure Boot | Disabled |
-| Trusted Platform Module (TPM) | Disabled |
-| Simultaneous Multithreading | Enabled |
-
-| Devices | |
-| -------- | ----- |
-| Front Camera | Disabled |
-| Rear Camera | Disabled |
-| IR Camera | Disabled |
-| LTE | Disabled |
-
-| Boot configuration | |
-| -------- | ----- |
-| USB Storage | Move the item to the top of the list |
+All other settings may remain on their default values and won't prevent macOS from booting, but keep in mind that every disabled device saves power and increases the battery runtime. For example, as the fingerprint reader won't work in macOS, disabling the device in the UEFI Settings is recommended unless you plan on using another operating system on the device as well. 
 </details>
 
 <details>
