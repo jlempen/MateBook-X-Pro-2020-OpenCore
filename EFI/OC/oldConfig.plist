@@ -1867,7 +1867,7 @@
                 </dict>
                 <dict>
                     <key>Arguments</key>
-                    <string>0x3E 0x0 -n CpuSetup --write_on_demand</string>
+                    <string>0x3C 0x0 -n CpuSetup --write_on_demand</string>
                     <key>Auxiliary</key>
                     <true/>
                     <key>Comment</key>
@@ -1977,7 +1977,7 @@
                 </dict>
                 <dict>
                     <key>Arguments</key>
-                    <string>0x3E 0x1 -n CpuSetup --write_on_demand</string>
+                    <string>0x3C 0x1 -n CpuSetup --write_on_demand</string>
                     <key>Auxiliary</key>
                     <true/>
                     <key>Comment</key>
