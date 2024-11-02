@@ -35,7 +35,7 @@ This repository uses the unofficial OpenCore_NO_ACPI_Build fork of OpenCore by [
 | Software         | Version                            |
 | ---------------- | ---------------------------------- |
 | Target OS        | Apple macOS 15 Sequoia, 14 Sonoma and 13 Ventura |
-| OpenCore         | [MOD-OC v1.0.2](https://github.com/wjz304/OpenCore_NO_ACPI_Build/releases/download/1.0.2_e9b40ba/OpenCore-Mod-1.0.2-RELEASE.zip) |
+| OpenCore         | [MOD-OC v1.0.3](https://github.com/wjz304/OpenCore_NO_ACPI_Build/releases/download/1.0.3_1fc0c1c/OpenCore-Mod-1.0.3-RELEASE.zip) |
 | SMBIOS           | MacBookPro16,2 |
 | UEFI Firmware    | v1.26 |
 | SSD format       | APFS file system, GPT partition table |
