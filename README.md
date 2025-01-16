@@ -2,8 +2,30 @@
 
 # MateBook-X-Pro-2020-OpenCore
 macOS on the Huawei MateBook X Pro 2020 thanks to [Acidanthera's OpenCore bootloader](https://github.com/acidanthera/OpenCorePkg).
+  
+## Software Specifications
+| Software         | Version                            |
+| ---------------- | ---------------------------------- |
+| Target OS        | Apple macOS 15 Sequoia, 14 Sonoma and 13 Ventura |
+| OpenCore         | [MOD-OC v1.0.3](https://github.com/wjz304/OpenCore_NO_ACPI_Build/releases/download/1.0.3_1fc0c1c/OpenCore-Mod-1.0.3-RELEASE.zip) |
+| SMBIOS           | MacBookPro16,2 |
+| UEFI Firmware    | v1.26 |
+| SSD format       | APFS file system, GPT partition table |
 
+## Abstract
 The MateBook X Pro 2020 is a nearly perfect Hackintosh laptop. It looks almost like the real thing once you remove all the ugly Intel, Huawei and NVIDIA stickers from the palmrest. It sounds great with its 4 speakers, the huge trackpad supports all the native gestures and feels like a Mac trackpad, the keyboard is almost as good as the real thing, the 13.9 inch display looks amazing, the MateBook sleeps and wakes quickly and the battery life is on par with an Intel MacBook Pro/Air. It feels like a MacBook Pro/Air. I switch daily between a 2020 M1 MacBook Pro and the MateBook X Pro 2020 and very often wouldn't know which device I'm currently working with.
+
+> [!TIP]
+> I recommend installing `macOS 13 Ventura` rather than the newer `macOS 14 Sonoma` or `macOS 15 Sequoia`. The builtin Intel Wireless chip works almost perfectly with Apple's iServices and Continuity features on Ventura while those features are partially broken at the moment on newer versions of macOS.
+
+> [!TIP]
+> To boot from the USB stick containing the macOS installer, power on your MateBook X Pro 2020 and press and hold the `F12 Key` as soon as the Huawei Logo is displayed, then choose the USB stick in the list.
+
+> [!IMPORTANT]
+> For macOS to be able to boot on the MateBook X Pro 2020, the `Secure Boot` option  _**must be disabled**_ in the UEFI Settings.
+
+> [!IMPORTANT]
+> Please be aware that all `PlatformInfo` and `SMBIOS` information was removed from the OpenCore `config.plist` file. Users will therefore need to generate their own `PlatformInfo` with [CorpNewt's GenSMBIOS tool](https://github.com/corpnewt/GenSMBIOS) before attempting to boot a MateBook X Pro 2020 with this repository's EFI folder.
 
 ## Disclaimer
 This repository is neither a howto nor an installation manual. Using these files requires at least basic knowledge of [Acidanthera's OpenCore bootloader](https://github.com/acidanthera/OpenCorePkg), ACPI, UEFI and the art of hackintoshing in general. I recommend reading the excellent [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide), as well as all its linked resources.
@@ -14,12 +36,6 @@ So I downloaded his EFI folder, updated OpenCore and all the relevant SSDTs and 
 ## Recommendations
 I recommend completely erasing the device's SSD by creating a new GPT partition table before attempting to install macOS, as it makes the installation process much easier. You may use any Linux live ISO with a partitioning tool such as `GParted` or `KPartition` to erase the SSD.
 
-For macOS to be able to boot on the MateBook X Pro 2020, the `Secure Boot` option  _**must be disabled**_ in the UEFI Settings.
-
-To boot from the USB stick containing the macOS installer, power on your MateBook X Pro 2020 and press and hold the `F12 Key` as soon as the Huawei Logo is displayed, then choose the USB stick in the list.
-
-Please be aware that all `PlatformInfo` and `SMBIOS` information was removed from the OpenCore `config.plist` file. Users will therefore need to generate their own `PlatformInfo` with [CorpNewt's GenSMBIOS tool](https://github.com/corpnewt/GenSMBIOS) before attempting to boot a MateBook X Pro 2020 with this repository's EFI folder.
-
 `AirportItlwm_Ventura.kext`, `AirportItlwm_Sonoma14.0.kext` and `AirportItlwm_Sonoma14.4.kext` from the [OpenIntelWireless repo](https://github.com/OpenIntelWireless/itlwm) are required to enable the Wifi chip. This EFI will dynamically load the appropriate kext for macOS Ventura or Sonoma depending on the running kernel. No need to manually replace the kext file when updating your version of macOS. 
 
 As the Intel Wifi chip does not yet work with `AirportItlwm.kext` in macOS Sequoia, you'll need to use `Itlwm.kext` and its companion app [HeliPort](https://github.com/OpenIntelWireless/HeliPort/releases) to connect to a Wifi network. You'll find the latest stable `HeliPort.dmg` in the [Tools folder](https://github.com/jlempen/MateBook-X-Pro-2020-OpenCore/blob/main/Tools/HeliPort_v1.5.dmg) of this repo. This EFI will dynamically load `Itlwm.kext` instead of `AirportItlwm.kext` when you boot into macOS Sequoia.
@@ -27,19 +43,6 @@ As the Intel Wifi chip does not yet work with `AirportItlwm.kext` in macOS Sequo
 Windows and Linux should be detected automagically by the OpenCore boot loader even when installed after macOS.
 
 This repository uses the unofficial OpenCore_NO_ACPI_Build fork of OpenCore by [btwise](https://gitee.com/btwise/OpenCore_NO_ACPI), wich is not endorsed by Acidanthera (the dev team behind OpenCore). The main (and only) difference between this fork and the official OpenCore version is that it allows to prevent ACPI injection (e.g. patches, tables, boot parameters) into other OSes besides macOS.
-
-<details>
-  <summary>Software Specifications</summary>
-  
-## Software Specifications
-| Software         | Version                            |
-| ---------------- | ---------------------------------- |
-| Target OS        | Apple macOS 15 Sequoia, 14 Sonoma and 13 Ventura |
-| OpenCore         | [MOD-OC v1.0.3](https://github.com/wjz304/OpenCore_NO_ACPI_Build/releases/download/1.0.3_1fc0c1c/OpenCore-Mod-1.0.3-RELEASE.zip) |
-| SMBIOS           | MacBookPro16,2 |
-| UEFI Firmware    | v1.26 |
-| SSD format       | APFS file system, GPT partition table |
-</details>
 
 <details>
   <summary>Computer Specifications</summary>
