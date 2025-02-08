@@ -70,22 +70,22 @@ This repository uses the unofficial OpenCore_NO_ACPI_Build fork of OpenCore by [
   <summary>What works</summary>
   
 ## What works
-- [x] CPU power management (`CPUFriend.kext` with `CPUFriendDataProvider.kext`)
-- [x] CPU SpeedStep (`CPUFriend.kext` with `CPUFriendDataProvider.kext`)
-- [x] iGPU with full acceleration (`WhateverGreen.kext`, `AAPL,ig-platform-id 0400A53E`, `device-id A53E0000`)
-- [x] SSD drive (`NVMeFix.kext`)
+- [x] CPU power management
+- [x] CPU SpeedStep
+- [x] iGPU with full acceleration (`AAPL,ig-platform-id 0400A53E`, `device-id A53E0000`)
+- [x] SSD drive
 - [x] Sleep/hibernate and wake
-- [x] Rear left USB-C port with hotplug (`USBMap.kext`)
-- [x] Front left USB-C port with hotplug for USB 1.1 and USB 2.0 devices only (`USBMap.kext`)
-- [x] Right USB 3.0 port with hotplug (`USBMap.kext`)
-- [x] WLAN (`AirportItlwm.kext`)
-- [x] Bluetooth (`IntelBluetoothFirmware.kext` with `IntelBTPatcher.kext` and `BlueToolFixup.kext`)
+- [x] Rear left USB-C port with hotplug
+- [x] Front left USB-C port with hotplug for USB 1.1 and USB 2.0 devices only
+- [x] Right USB 3.0 port with hotplug
+- [x] WLAN
+- [x] Bluetooth
 - [x] Nose-Camera VID 0x05c8 PID 0x03c0 (don't forget to pop it up :-)
-- [x] Internal quad speakers, microphone and Combojack (`AppleALC.kext`, `alcid=76`)
-- [x] Keyboard with working brightness, volume and mute keys (`VoodooPS2.kext`)
-- [x] Trackpad with native multi-touch gestures (`VoodooI2C.kext` with `VoodooI2CHID.kext`)
-- [x] Touchscreen (`VoodooI2C.kext` with `VoodooI2CHID.kext`) (disabled for now)
-- [x] Battery percentage and cycle count (`VirtualSMC.kext` with `SMCBatteryManager.kext`)
+- [x] Internal quad speakers, microphone and Combojack (`alcid=76`)
+- [x] Keyboard with working brightness, volume and mute keys
+- [x] Trackpad with native multi-touch gestures
+- [x] Touchscreen (disabled for now)
+- [x] Battery percentage and cycle count
 - [x] USB Type-C Power Delivery
 </details>
 
