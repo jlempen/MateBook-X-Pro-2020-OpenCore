@@ -7,7 +7,7 @@ macOS on the Huawei MateBook X Pro 2020 thanks to [Acidanthera's OpenCore bootlo
 | Software         | Version                            |
 | ---------------- | ---------------------------------- |
 | Target OS        | Apple macOS 15 Sequoia, 14 Sonoma and 13 Ventura |
-| OpenCore         | [MOD-OC v1.0.3](https://github.com/wjz304/OpenCore_NO_ACPI_Build/releases/download/1.0.3_1fc0c1c/OpenCore-Mod-1.0.3-RELEASE.zip) |
+| OpenCore         | [MOD-OC v1.0.5](https://github.com/wjz304/OpenCore_NO_ACPI_Build/releases/download/1.0.5_b56882c/OpenCore-Mod-1.0.5-RELEASE.zip) |
 | SMBIOS           | MacBookPro16,2 |
 | UEFI Firmware    | v1.26 |
 | SSD format       | APFS file system, GPT partition table |
