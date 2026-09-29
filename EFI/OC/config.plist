@@ -921,7 +921,7 @@
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
-                    <key>#enable-backlight-registers-fix</key>
+                    <key>#enable-backlight-registers-alternative-fix</key>
                     <data>AQAAAA==</data>
                     <key>AAPL,ig-platform-id</key>
                     <data>AACbPg==</data>
@@ -931,7 +931,7 @@
                     <string>VGA compatible controller</string>
                     <key>disable-external-gpu</key>
                     <data>AQAAAA==</data>
-                    <key>enable-backlight-registers-alternative-fix</key>
+                    <key>enable-backlight-registers-fix</key>
                     <data>AQAAAA==</data>
                     <key>enable-backlight-smoother</key>
                     <data>AQAAAA==</data>
