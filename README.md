@@ -15,6 +15,7 @@ macOS on the Huawei MateBook X Pro 2020 thanks to [Acidanthera's OpenCore bootlo
 > If you wish to enable `FileVault` disk encryption in macOS Tahoe, [carefully read the section below](https://github.com/jlempen/MateBook-X-Pro-2020-OpenCore/tree/main#fixing-filevault-when-upgrading-to-macos-tahoe).
 
 ## Latest News
+* (20260929) Added a fix for the black screen on login on macOS Tahoe 26.7.
 * (20260127) Added instructions to enable Wifi in the macOS Sequoia and Tahoe installer ([see section below](https://github.com/jlempen/MateBook-X-Pro-2020-OpenCore/tree/main#enabling-the-intel-wireless-card-in-the-macos-sequoia-and-tahoe-installer)).
 * (20260112) Added the `apfs_aligned.efi` driver to fix `FileVault` when upgrading to macOS Tahoe ([see section below](https://github.com/jlempen/MateBook-X-Pro-2020-OpenCore/tree/main#fixing-filevault-when-upgrading-to-macos-tahoe)).
 * (20260112) Added resources and instructions to enable `AirportItlwm.kext` on macOS Sequoia and Tahoe ([see section below](https://github.com/jlempen/MateBook-X-Pro-2020-OpenCore/tree/main?tab=readme-ov-file#enabling-the-intel-wireless-card-in-macos-sequoia-and-tahoe)).
