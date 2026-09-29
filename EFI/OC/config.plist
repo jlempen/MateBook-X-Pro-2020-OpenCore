@@ -976,7 +976,7 @@
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V1.7.1 | Patch engine</string>
+                    <string>V1.7.2 | Patch engine</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -994,7 +994,7 @@
                     <key>BundlePath</key>
                     <string>VirtualSMC.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.7 | SMC emulator</string>
+                    <string>V1.3.8 | SMC emulator</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1012,7 +1012,7 @@
                     <key>BundlePath</key>
                     <string>SMCBatteryManager.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.7</string>
+                    <string>V1.3.8</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1030,7 +1030,7 @@
                     <key>BundlePath</key>
                     <string>SMCLightSensor.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.7</string>
+                    <string>V1.3.8</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1048,7 +1048,7 @@
                     <key>BundlePath</key>
                     <string>SMCProcessor.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.7</string>
+                    <string>V1.3.8</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1066,7 +1066,7 @@
                     <key>BundlePath</key>
                     <string>WhateverGreen.kext</string>
                     <key>Comment</key>
-                    <string>V1.7.0</string>
+                    <string>V1.7.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1084,7 +1084,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.9.6 | Audio patches</string>
+                    <string>V1.9.8 | Audio patches</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1570,7 +1570,7 @@
                     <key>BundlePath</key>
                     <string>BlueToolFixup.kext</string>
                     <key>Comment</key>
-                    <string>V2.7.1 | BlueToolFixup.kext</string>
+                    <string>V2.7.2 | BlueToolFixup.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -2435,6 +2435,8 @@
                     <string>OpenRuntime.efi</string>
                     <key>Enabled</key>
                     <true/>
+                    <key>HideVerbose</key>
+                    <false/>
                     <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
@@ -2447,6 +2449,8 @@
                     <string>AudioDxe.efi</string>
                     <key>Enabled</key>
                     <false/>
+                    <key>HideVerbose</key>
+                    <false/>
                     <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
@@ -2459,6 +2463,8 @@
                     <string>OpenCanopy.efi</string>
                     <key>Enabled</key>
                     <true/>
+                    <key>HideVerbose</key>
+                    <false/>
                     <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
@@ -2471,6 +2477,8 @@
                     <string>Reset NVRAM</string>
                     <key>Enabled</key>
                     <true/>
+                    <key>HideVerbose</key>
+                    <false/>
                     <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
@@ -2483,6 +2491,8 @@
                     <string>Toggle SIP</string>
                     <key>Enabled</key>
                     <true/>
+                    <key>HideVerbose</key>
+                    <false/>
                     <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
@@ -2495,6 +2505,8 @@
                     <string>OpenLinuxBoot.efi</string>
                     <key>Enabled</key>
                     <true/>
+                    <key>HideVerbose</key>
+                    <false/>
                     <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
@@ -2507,6 +2519,8 @@
                     <string>HfsPlus.efi</string>
                     <key>Enabled</key>
                     <true/>
+                    <key>HideVerbose</key>
+                    <false/>
                     <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
@@ -2519,6 +2533,8 @@
                     <string>ext4_x64.efi</string>
                     <key>Enabled</key>
                     <true/>
+                    <key>HideVerbose</key>
+                    <false/>
                     <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
@@ -2531,6 +2547,8 @@
                     <string>btrfs_x64.efi</string>
                     <key>Enabled</key>
                     <true/>
+                    <key>HideVerbose</key>
+                    <false/>
                     <key>LoadEarly</key>
                     <false/>
                     <key>Path</key>
@@ -2542,6 +2560,8 @@
                     <key>Comment</key>
                     <string>apfs_aligned.efi</string>
                     <key>Enabled</key>
+                    <false/>
+                    <key>HideVerbose</key>
                     <false/>
                     <key>LoadEarly</key>
                     <false/>
